@@ -433,6 +433,9 @@
 }
 
 @media screen and (max-width: 530px) {
+
+    /*Header*/
+
   .nav-bar-container ul {
     display: none;
   }
@@ -441,12 +444,16 @@
     display: none;
   }
 
+   /*Main*/
+
   .main-section-container {
     flex-direction: column;
   }
 
   .main-section-container img {
-    width: 100%;
+    width: 80%;
+    margin-left: 55px;
+    margin-bottom: 20px;
   }
 
   .main-text-container h1 {
@@ -457,9 +464,41 @@
     flex-direction: column;
   }
 
+  .pros-section{
+    background-color: #3CDDF3;
+  }
+
+  .pros-section h3{
+    padding: 20px 35px;
+    margin: 20px 0;
+  }
+
+  .description-container{
+    padding: 25px 30px;
+  }
+
+
   .text-container {
     flex-direction: column;
   }
+
+
+  .option-container2, .option-container1, .option-container3 {
+    width: 90%;
+    margin: 0;
+  }
+
+  .option2, .option3, .option1{
+    background-color: #cfade9 ;
+    border-radius: 17px 0 0 17px;
+    margin-top:50px;
+    margin-bottom: 20px;
+  }
+  
+  .avatar{
+    width: 90%;
+  }
+
 
   .avatar-container {
     flex-direction: column;
@@ -468,6 +507,8 @@
   .Get-container {
     flex-direction: column;
   }
+
+     /*Footer*/
 
   .main-footer-container {
     flex-direction: column-reverse;
